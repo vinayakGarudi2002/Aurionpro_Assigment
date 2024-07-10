@@ -1,0 +1,10 @@
+package com.aurionpro.task;
+
+public class WaterBillCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
