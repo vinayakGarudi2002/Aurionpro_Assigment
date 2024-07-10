@@ -1,0 +1,42 @@
+package com.aurionpro.task;
+
+import java.util.Scanner;
+
+public class BMICalculator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("");
+        System.out.println("|----BMI Calculator----|");
+        System.out.println("");
+        System.out.println("Application will prompt to enter weight (in kilograms) and height (in meters) to calculate BMI");
+        System.out.println("");
+
+        
+        System.out.print("Enter weight (in kilograms): ");
+        double weight = scanner.nextDouble();
+
+        
+        System.out.print("Enter height (in meters): ");
+        double height = scanner.nextDouble();
+
+        System.out.println("");
+        System.out.println("|----Calculating BMI----|");
+        System.out.println("");
+
+        
+        double bmi = weight / (height * height);
+
+        
+        
+       // String bmiCategory= (bmi<18.5)?"Under Weight":"Normal to Over Weight";
+        
+        System.out.println("Your BMI is: " + bmi);
+       // System.out.println("Your BMI is: "+bmiCategory);
+        
+
+        System.out.println("");
+        System.out.println("------------------");
+    }
+}
