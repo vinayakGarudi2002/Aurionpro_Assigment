@@ -12,6 +12,8 @@ public class PigGame {
 		int points=0; // goal(20)
 		int die;
 		
+		System.out.println("|----Pig Game----|");
+		
 		System.out.println("Turn: "+turn);
 		while(points<20) {
 			

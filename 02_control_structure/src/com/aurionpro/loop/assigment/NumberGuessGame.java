@@ -8,10 +8,10 @@ public class NumberGuessGame {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		int attempts=0;
+		int attempts=0;  // 5 max attempts possible
 		boolean exitStatus=false;
 		int randomNumber = 1 + (int)(Math.random() * 100);
-		//System.out.println(randomNumber);// un comment for testing
+		System.out.println("random number generated printed for testing: "+randomNumber);// un comment for testing
 		
 		while(!exitStatus) {
 			
@@ -24,7 +24,7 @@ public class NumberGuessGame {
 				if(ch=='y') {
 					attempts=0;
 					randomNumber = 1 + (int)(Math.random() * 100);
-					//System.out.println(randomNumber);// un comment for testing
+					System.out.println("random number generated printed for testing: "+randomNumber);// un comment for testing
 				}else {
 					exitStatus=true;
 					break;
@@ -46,7 +46,7 @@ public class NumberGuessGame {
 				if(ch=='y') {
 					attempts=0;
 					randomNumber = 1 + (int)(Math.random() * 100);
-					//System.out.println(randomNumber);// un comment for testing
+					System.out.println("random number generated printed for testing: "+randomNumber);// un comment for testing
 				}else {
 					exitStatus=true;
 					break;
